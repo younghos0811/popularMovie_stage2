@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">popular_movies</string>
+
+    <!-- TAG -->
+    <string name="main_activity_tag">MainActivity_TAG</string>
+
+
+
+    <!-- MAIN ACTIVTY STRING VALUES -->
+    <string name="selected_menu_item_id">selected_menu_item_id</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_toprate">Sort by Top Rate</string>
+    <string name="action_popular">Sort by Popular</string>
+    <string name="error_message">
+        An error has occurred. Please try again by clicking REFRESH
+    </string>
+    <string name="change_sort">Sort Option</string>
+    <string name="init_sort_option">popular</string>
+    <string name="sort_option_popular">popular</string>
+    <string name="sort_option_topRate">top_rated</string>
+    <string name="sort_option_favorite">my_favorite</string>
+
+
+
+    <!-- DETAIL MOVIE ACTIVITY STRING VALUES -->
+    <string name ="utube_package_name"> com.google.android.youtube </string>
+    <string name="movie_title">Title</string>
+    <string name="movie_date">Date</string>
+    <string name="movie_rate">Rate</string>
+    <string name="movie_overview">Over view</string>
+    <string name="video_title">Trailer Video</string>
+    <string name="review_title">Moview Review</string>
+    <string name="title_activity_detail_movie">DetailMovieActivity</string>
+
+
+
+    <!-- API SERVICE -->
+    <string name ="base_url"> https://api.themoviedb.org/3/movie/ </string>
+
+
+
+    <!-- Open Source -->
+    <string name="oss_menu">Open source license</string>
+    <string name="license_title">Open Source Library Notice</string>
+    <string name="license_glide_title">* Glide</string>
+    <string name="license_glide_github">https://github.com/bumptech/glide</string>
+    <string name="license_glide_license">https://github.com/bumptech/glide/blob/master/LICENSE</string>
+    <string name="license_retrofit_title">* Retrofit2</string>
+    <string name="license_retrofit_github">https://github.com/square/retrofit</string>
+    <string name="license_retrofit_license">https://github.com/square/retrofit/blob/master/LICENSE.txt</string>
+    <string name="license_gson_title">* Gson</string>
+    <string name="license_gson_github">https://github.com/google/gson</string>
+    <string name="license_gson_license">https://github.com/google/gson/blob/master/LICENSE</string>
+    <string name="license_buterKnife_title">* ButerKnife</string>
+    <string name="license_buterKnife_github">https://github.com/JakeWharton/butterknife</string>
+    <string name="license_buterKnife_license">https://github.com/JakeWharton/butterknife/blob/master/LICENSE</string>
+
+
+
+    <!-- Image view string -->
+    <string name="ImageDescription">Loading Image</string>
+    <string name="action_settings">Settings</string>
+    <!--<string name="api_key"></string>-->
+
+</resources>

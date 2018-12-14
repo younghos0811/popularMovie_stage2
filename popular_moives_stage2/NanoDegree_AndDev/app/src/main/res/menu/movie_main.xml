@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/select_menu"
+        android:title="@string/change_sort"
+        android:orderInCategory="1"
+        app:showAsAction="never">
+
+        <menu>
+            <group
+                android:id="@+id/sort_group"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/action_popular_sort"
+                    android:title="@string/action_popular"
+                    android:checked="true"
+                    android:onClick="onSortGroupItemClick" />
+
+                <item
+                    android:id="@+id/action_toprate_sort"
+                    android:title="@string/action_toprate"
+                    android:onClick="onSortGroupItemClick" />
+                <item
+                    android:id="@+id/action_favorite_sort"
+                    android:title="@string/sort_option_favorite"
+                    android:onClick="onSortGroupItemClick" />
+            </group>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/oss_menu"
+        android:title="@string/oss_menu"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+</menu>
